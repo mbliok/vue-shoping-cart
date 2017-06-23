@@ -134,8 +134,14 @@ h1 {
     margin: 1rem 1rem 1rem 0;
     display: flex;
     flex-flow: row nowrap;
-}
+    position: relative;
 
+    
+}
+.product .btn{
+        position: absolute;
+        right:15px;
+    }
 .product:first-child {
     margin-top: 0;
 }
